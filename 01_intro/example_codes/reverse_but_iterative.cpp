@@ -15,7 +15,7 @@ using std::swap;
 // 数组倒置 (规范整理后的迭代版)
 void reverse(int* A, int lo, int hi) {
   while (lo < hi) // 用 while 替换跳转标志与 if, 完全等效.
-    swap(A[++lo], A[--hi]);
+    swap(A[lo++], A[hi--]);
 }
 
 void reverse(int* A, int n) { reverse(A, 0, n - 1); }
