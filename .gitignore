@@ -1,8 +1,17 @@
 # vscode
 /.vscode/*
 
+# clion
+/.idea/*
+
 # test
 /test.cpp
 
-# temp
-/02_vector/*
+# cmake
+/CMakeLists.txt
+/cmake-build-debug/*
+/build/*
+
+# reference
+/dsacpp-src.vs2019.240729/*
+03_list/03.1_from_vector_to_list.md
